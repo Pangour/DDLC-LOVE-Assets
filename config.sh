@@ -3,7 +3,7 @@
 clear
 echo "DDLC-LOVE-Assets Config"
 if [ ! -z $1 ]; then
-    system=$1
+    system=$psp
 else
     echo "Select system to be used"
     select opt in "3DS" "Switch" "PS Vita" "PSP" "PS3"; do
